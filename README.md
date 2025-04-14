@@ -31,6 +31,47 @@ Whether you're new to NLP or strengthening your deep learning skills, this repo 
 ## ⚙️ Getting Started
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/KiranKatamneni/Gen-AI.git
-cd Gen-AI
+    ```bash
+  git clone https://github.com/KiranKatamneni/Gen-AI.git
+  cd Gen-AI
+
+### 2. (Optional) Create a virtual environment
+    ```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+### 3. Install Required Packages
+
+If `requirements.txt` is available:
+
+    ```bash
+pip install -r requirements.txt
+
+### Or Manually Install the Required Packages
+
+    ```bash
+pip install numpy pandas nltk tensorflow scikit-learn jupyter
+
+### 4. Launch the Notebooks
+
+    ```bash
+jupyter notebook
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. **Fork** the repository  
+2. **Create a branch** (`feature/your-feature`)  
+3. **Commit your changes**  
+4. **Push to the branch**  
+5. **Open a Pull Request**
+
+Let’s build something great together! 🚀
+
+---
+
+## 📝 License
+
+This project is open-source and available under the **MIT License**.  
+Use it freely, and give credit when possible.
